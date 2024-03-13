@@ -1,6 +1,6 @@
+import axios from "axios"
 import { ADD_TASK, BASE_URL, GET_ALL_TASKS, SIGN_IN, SIGN_UP } from "@/utils/constants"
 import { getCall, postCall, putCall } from "./axios.service"
-import axios from "axios"
 import { deleteCookie, getCookie, setCookie } from "cookies-next"
 
 export const signIn = async (user: User) => {
