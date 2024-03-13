@@ -1,0 +1,64 @@
+.auth-frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-frame h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.auth-frame form {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-frame input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.auth-frame input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.auth-frame input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.auth-frame .error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.register-link-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register-link-container p,
+.register-link-container a {
+    display: inline-block;
+    margin: 0;
+}
+
+.register-link-container a {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}

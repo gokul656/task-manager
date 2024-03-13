@@ -1,0 +1,7 @@
+.alert-container {
+    position: fixed;
+    top: 1vw;
+    left: 30vw;
+    right: 30vw;
+    z-index: 99999 !important;
+}
